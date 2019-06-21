@@ -20,7 +20,7 @@ export default class ChromeBoisDomain extends Component {
 
    handleKeyPress = (event) => {
      if (event.keyCode == 65) {
-       return resize(+)
+       return resize("+")
      }
      else if (event.keyCode == 83) {
        return resize(-)
